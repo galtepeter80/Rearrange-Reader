@@ -1,0 +1,50 @@
+body {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("back.jpg");
+}
+
+#header {
+	top: 0;
+	height: 40px;
+	width: 600px;
+	position: fixed;
+	background: rgb(0, 0, 0);
+	color: green;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 30;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#middle {
+	width: 600px; 
+	height: 100%;
+	background: lightgray;
+	
+}
+
+	#content {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	
+		#textinput {
+			font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera  Sans Mono', monospace;
+			font-size: 20;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+#footer {
+	bottom: 0;
+	height: 40px;
+	width: 600px;
+	position: fixed;
+	background: rgb(0, 0, 0);
+}
+	
